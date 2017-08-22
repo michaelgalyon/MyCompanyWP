@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/myCompanyWp/MyCompanyWpWebPart.js",
+      "manifest": "./src/webparts/myCompanyWp/MyCompanyWpWebPart.manifest.json",
+      "outputPath": "./dist/my-company-wp.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js",
+      "globalName": "jQuery"
+      },
+    "simpleWeather": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]}
+  },
+  "localizedResources": {
+    "myCompanyWpStrings": "webparts/myCompanyWp/loc/{locale}.js"
+  }
+}

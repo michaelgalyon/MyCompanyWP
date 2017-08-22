@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "my-company-wp-solution",
+    "id": "d710fada-5b5a-4412-aa22-9d5074c1f7a2",
+    "version": "0.1.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/my-company-wp.sppkg"
+  }
+}
